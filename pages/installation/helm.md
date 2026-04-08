@@ -40,6 +40,18 @@ kubectl port-forward svc/statuspage 9090:8080
 
 Open http://localhost:9090 in your browser.
 
+## Upgrade
+
+```bash
+helm upgrade statuspage \
+  oci://registry.replicated.com/{{ app.slug }}/{{ channel.slug }}/statuspage \
+  --wait --timeout 180s
+```
+
+Your data is preserved across upgrades — PostgreSQL uses persistent volumes.
+
+The admin dashboard shows a banner when a new version is available.
+
 ## Uninstall
 
 ```bash

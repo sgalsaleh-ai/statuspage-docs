@@ -45,12 +45,21 @@ After deployment completes, access the app via the NodePort or ingress hostname 
 
 ## Upgrades
 
+1. Download the new version:
+
 ```bash
 curl -f "https://replicated.app/embedded/{{ app.slug }}/{{ channel.slug }}" \
   -H "Authorization: {{ license.licenseId }}" \
   -o {{ app.slug }}.tgz
 tar -xzf {{ app.slug }}.tgz
+```
+
+2. Run the upgrade:
+
+```bash
 sudo ./{{ app.slug }} upgrade --license license.yaml --yes
 ```
 
-Complete the upgrade through the web UI at `https://<server-ip>:30080`.
+3. Complete through the web UI at `https://<server-ip>:30080`. Review settings and deploy.
+
+Your data is preserved across upgrades.

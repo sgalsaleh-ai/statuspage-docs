@@ -37,8 +37,6 @@ navigation:
   - title: Operating
     icon: wrench
     items:
-      - title: Upgrades
-        page: pages/operating/upgrades.md
       - title: Support Bundles
         page: pages/operating/support-bundles.md
       - title: Troubleshooting

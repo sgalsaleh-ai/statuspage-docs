@@ -21,4 +21,4 @@ Your license includes **Subscriber Notifications** — users can subscribe to em
 
 ## Need Help?
 
-If you run into issues, generate a support bundle from the admin dashboard.
+If you run into issues, generate a support bundle from the admin dashboard and upload it to this portal for analysis.
