@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Kubernetes cluster meeting the [requirements](../requirements.md)
+- Kubernetes cluster meeting the [Requirements](/pages/requirements.md)
 - Helm 3.x installed
 - `kubectl` configured to access your cluster
 

@@ -4,7 +4,7 @@
 
 ## Quick Start
 
-1. Review the [Requirements](pages/requirements.md)
+1. Review the [Requirements](/pages/requirements.md)
 2. Follow the installation guide for your deployment method
 3. Configure your database and notifications
 4. Start managing your status page
