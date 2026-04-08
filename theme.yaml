@@ -2,8 +2,8 @@ title: "StatusPage"
 overview: "Documentation and installation guides for StatusPage — real-time incident management and status monitoring."
 logo: assets/logo.svg
 favicon: assets/favicon.svg
-primaryColor: "#4f46e5"
-secondaryColor: "#818cf8"
-linkColor: "#4f46e5"
-linkHoverColor: "#3730a3"
+primaryColor: "#0f172a"
+secondaryColor: "#22c55e"
+linkColor: "#22c55e"
+linkHoverColor: "#16a34a"
 contact: "support@puresoft.app"
