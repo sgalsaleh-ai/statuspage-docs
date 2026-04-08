@@ -1,0 +1,64 @@
+navigation:
+  - title: Getting Started
+    icon: rocket
+    page: pages/getting-started.md
+
+  - title: Installation
+    icon: download
+    items:
+      - title: Requirements
+        page: pages/requirements.md
+      - title: Helm Installation
+        page: pages/installation/helm.md
+        visible_when:
+          entitlements:
+            - isHelmInstallEnabled
+      - title: Embedded Cluster Installation
+        page: pages/installation/embedded-cluster.md
+        visible_when:
+          entitlements:
+            - isEmbeddedClusterDownloadEnabled
+      - title: Air Gap Installation
+        page: pages/installation/airgap.md
+        visible_when:
+          entitlements:
+            - isAirgapSupported
+
+  - title: Configuration
+    icon: settings
+    items:
+      - title: Database
+        page: pages/config/database.md
+      - title: Email Notifications
+        page: pages/config/notifications.md
+      - title: TLS & Networking
+        page: pages/config/tls.md
+
+  - title: Operating
+    icon: wrench
+    items:
+      - title: Upgrades
+        page: pages/operating/upgrades.md
+      - title: Support Bundles
+        page: pages/operating/support-bundles.md
+      - title: Troubleshooting
+        page: pages/operating/troubleshooting.md
+
+  - title: Reference
+    icon: book
+    items:
+      - title: StatusPage Helm Chart
+        helm_chart:
+          name: statuspage
+
+  - title: Infrastructure
+    icon: database
+    items:
+      - title: AWS Module
+        terraform_module: github.com/sgalsaleh-ai/statuspage-terraform//modules/aws?ref=main
+        visible_when:
+          entitlements:
+            - terraform_enabled
+
+overrides:
+  home: pages/getting-started.md
