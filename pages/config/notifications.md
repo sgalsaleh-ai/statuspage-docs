@@ -1,5 +1,7 @@
 # Email Notifications
 
+Debug: subscriber_notifications = {{ entitlements.subscriber_notifications }}
+
 ## Overview
 
 StatusPage supports subscriber email notifications. Users can subscribe to email alerts on the public status page and receive notifications when incidents are created or updated.
