@@ -1,8 +1,8 @@
 # Email Notifications
 
-{{#if entitlements.subscriber_notifications}}
+## Overview
 
-Your license includes **Subscriber Notifications**. Users can subscribe to email alerts on your public status page and receive notifications when incidents are created or updated.
+StatusPage supports subscriber email notifications. Users can subscribe to email alerts on the public status page and receive notifications when incidents are created or updated.
 
 Email notifications are powered by the vendor's email infrastructure — no SMTP configuration is required on your end.
 
@@ -12,10 +12,6 @@ Email notifications are powered by the vendor's email infrastructure — no SMTP
 2. When you create or update an incident, subscribers receive an email notification
 3. Manage subscribers from the admin dashboard under the **Subscribers** tab
 
-{{else}}
+## License Requirement
 
-## Not Available
-
-Subscriber notifications are not included in your current license. Contact your vendor to enable this feature.
-
-{{/if}}
+This feature requires the **Subscriber Notifications** license entitlement. If you don't see the subscribe option on your status page, contact your vendor to enable it.
