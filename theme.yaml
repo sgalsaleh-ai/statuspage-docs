@@ -1,8 +1,8 @@
 branding:
   title: "StatusPage"
   overview: "Documentation and installation guides for StatusPage — real-time incident management and status monitoring."
-  logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   primaryColor: "#0f172a"
   secondaryColor: "#22c55e"
   linkColor: "#22c55e"
