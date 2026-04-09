@@ -13,7 +13,7 @@
 ```bash
 helm registry login registry.replicated.com \
   --username {{ customer.email }} \
-  --password {{ license.licenseId }}
+  --password {{ license.id }}
 ```
 
 ### 2. Install preflight checks (optional)

@@ -14,7 +14,7 @@ Install {{ app.name }} in an environment without internet access.
 
 ```bash
 curl -f "https://replicated.app/embedded/{{ app.slug }}/{{ channel.slug }}?airgap=true" \
-  -H "Authorization: {{ license.licenseId }}" \
+  -H "Authorization: {{ license.id }}" \
   -o {{ app.slug }}.tgz
 ```
 

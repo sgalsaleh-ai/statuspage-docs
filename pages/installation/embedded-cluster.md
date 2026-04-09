@@ -15,7 +15,7 @@ Embedded Cluster installs {{ app.name }} on a single bare VM with Kubernetes inc
 
 ```bash
 curl -f "https://replicated.app/embedded/{{ app.slug }}/{{ channel.slug }}" \
-  -H "Authorization: {{ license.licenseId }}" \
+  -H "Authorization: {{ license.id }}" \
   -o {{ app.slug }}.tgz
 ```
 
@@ -49,7 +49,7 @@ After deployment completes, access the app via the NodePort or ingress hostname 
 
 ```bash
 curl -f "https://replicated.app/embedded/{{ app.slug }}/{{ channel.slug }}" \
-  -H "Authorization: {{ license.licenseId }}" \
+  -H "Authorization: {{ license.id }}" \
   -o {{ app.slug }}.tgz
 tar -xzf {{ app.slug }}.tgz
 ```

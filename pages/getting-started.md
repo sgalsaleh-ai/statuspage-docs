@@ -13,7 +13,7 @@
 
 - **Customer**: {{ customer.name }}
 - **Channel**: {{ channel.name }}
-- **License ID**: {{ license.licenseID }}
+- **License ID**: {{ license.id }}
 
 {{#if entitlements.subscriber_notifications}}
 Your license includes **Subscriber Notifications** — users can subscribe to email alerts on your public status page.
